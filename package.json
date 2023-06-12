@@ -2,7 +2,10 @@
   "scripts": {
     "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
     "server": "cd backend && npm start",
-    "client": "cd client && npm start"
+    "client": "cd client && npm start",
+    "initialize": "concurrently --kill-others-on-fail \"npm run install-client\" \"npm run install-backend\"",
+    "install-client":"cd client && npm install",
+    "install-backend":"cd backend && npm install"
   },
   "devDependencies": {
     "concurrently": "^8.2.0"
