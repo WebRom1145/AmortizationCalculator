@@ -1,0 +1,1 @@
+export const DEFAULT_FETCH_TIMEOUT = 8000;
