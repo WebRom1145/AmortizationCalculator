@@ -11,7 +11,7 @@ in root Directory cd AmorizationCalculator
 ```bash
 $ cd /AmortizationCalculator
 $ npm install
-$ npm run initialize
+$ npm run init
 
 ```
 
